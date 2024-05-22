@@ -9,7 +9,7 @@ jobs:
       - name: Install node
         uses: actions/setup-node@v4
       - name: Install dependencies
-        run: npm run ci
+        run: npm ci
       - name: test code
         run: |
           npm run lint
